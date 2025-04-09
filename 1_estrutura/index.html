@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- especificidade maior do que no css linkado -->
     <style>
         h1{
-            color: blue;
+            color: rgb(150, 8, 77);
+            font-size: 160px;
         }
     </style>
 </head>
 <body>
    <h1>BORA BORA</h1>
-   <h1 style="color:red">bora Bora</h1>
+   <!-- especificidade maior do que no css linkado -->
+   <h1 style="color:red; font-size: 8px; ">bora Bora</h1>
+   <h1 style="font-size: small;">BORA BORA</h1>
+   <h1>BORA BORA</h1>
+   <h1>BORA BORA</h1>
 </body>
 </html>
