@@ -1,0 +1,57 @@
+/* display:inline-block  */
+a{
+    background-color: #df1;
+    padding: 22px;
+    display:inline-block;
+}
+/* Pseudoclasse */
+a:hover{
+    background-color: #f29;
+    padding: 22px;
+    display:inline-block;
+    transition: 3s;
+}
+
+.hide{
+    display: none;
+}
+
+body p{
+    color:#df5655;
+}
+
+body h1{
+    color:#ffcc00;
+}
+.content-flex{
+    display: flex;  
+    justify-content: space-evenly;
+
+}
+.content-flex p{
+    padding:50px;
+    color: green;
+    width:280px;
+    border: 0.1px solid;
+}
+/* pseudoclasse atinge o primeiro elemento do bloco */
+.content-flex p:first-child{
+    font-weight:bold;
+}
+/* pseudoelement */
+.content-flex p::before{
+    content: "conteudo antes";
+    
+    width:20px;
+    height:20px;
+    background-color:red;
+    display:inline-block;
+}
+.content-flex p::after{
+    content: "conteudo antes";
+    
+    width:20px;
+    height:20px;
+    background-color:red;
+    display:inline-block;
+}
