@@ -1,3 +1,6 @@
+img{
+    max-width:100%
+}
 header {
   background: #ffcc00;
 }
@@ -23,7 +26,10 @@ nav ul li a {
   text-decoration: none;
 }
 /* vai responder até 760px */
-@media (max-width: 760px) {
+@media (max-width: 460px) {
+    img{
+        max-width:100%;
+    }
   header {
     background: #ccff77;
   }
