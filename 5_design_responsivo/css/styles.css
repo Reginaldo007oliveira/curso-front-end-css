@@ -1,0 +1,9 @@
+header{
+    background:red;
+}
+/* vai responder até 760px */
+@media (max-width:760px){
+    header{
+        background:orange;
+    }
+}
